@@ -22,7 +22,7 @@ namespace Task
             Console.WriteLine(Name);
             Say();
         }
-    
+
     }
     class Dog : Animal
     {
@@ -31,9 +31,9 @@ namespace Task
         public override string Name { get => name; set => name = value; }
 
         public Dog(string name)
-            :base(  name)
+            : base(name)
         {
-            
+
         }
         public override void Say()
         {
@@ -48,7 +48,7 @@ namespace Task
         public Cat(string name)
             : base(name)
         {
-            
+
         }
 
         public override void Say()
